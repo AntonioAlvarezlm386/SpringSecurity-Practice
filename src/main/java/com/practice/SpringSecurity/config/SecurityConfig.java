@@ -59,7 +59,7 @@ public class SecurityConfig {
 		});
 	}
 	
-	/*Para obtener los datos de la session*/
+	/*To obtain the sesion data*/
 	@Bean
 	public SessionRegistry sessionRegistry() {
 		return new SessionRegistryImpl();
